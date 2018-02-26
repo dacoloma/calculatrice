@@ -1,0 +1,25 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{font-family: 'helvetica', sans-serif;}
+
+td{
+  background-color: #3D3D3D;
+  color: white;
+  padding: 1em;
+  font-size: 2em;
+
+  &:active{
+    background-color: yellow;
+  }
+}
+
+.symbol{
+  background-color: orange;
+}
+
+th {
+  height: 50px;
+  font-size: 4em;
+}
