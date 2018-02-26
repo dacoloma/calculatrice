@@ -10,7 +10,8 @@ $(document).ready(() => {
   const $clearButton = $('.clear');
 
   $numButton.on('click', event => {
-    array_num.push($(event.currentTarget).html());
+    var x = $(event.currentTarget).html();
+    array_num.push(x);
     updateDisplay(array_num.join(''));
     console.log(array_num);
   });
